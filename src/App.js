@@ -13,7 +13,7 @@ function App() {
       renderer: 'svg',
       autoplay: false,
       loop: false,
-      animationData: require('./animation.json'),
+      animationData: require('./animation.json')
     })
     stopAnimation()
   }
@@ -49,4 +49,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
