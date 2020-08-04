@@ -4,12 +4,11 @@ import lottie from 'lottie-web'
 function App() {
 
   const container = useRef(null)
-
-  let animObj = null
+  let animItem = null
   let isLiked = false
 
   const loadAnimation = () => {
-    animObj = lottie.loadAnimation({
+    animItem = lottie.loadAnimation({
       container: container.current,
       renderer: 'svg',
       autoplay: false,
@@ -20,21 +19,25 @@ function App() {
   }
 
   const handleClick = () => {
+    console.log('click')
     isLiked ? stopAnimation() : startAnimation()
     isLiked = !isLiked
   }
 
   const startAnimation = () => {
-    animObj.goToAndPlay(0)
+    console.log('animation start')
+    animItem.goToAndPlay(0)
   }
 
   const stopAnimation = () => {
-    animObj.goToAndStop(1100)
+    console.log('animation stop')
+    animItem.goToAndStop(1100)
   }
 
   useEffect(() => {
+    console.log('useEffect')
     loadAnimation()
-  }, [])
+  })
 
   return (
     <div style={{margin: '40px'}}>
