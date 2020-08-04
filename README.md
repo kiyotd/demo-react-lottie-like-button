@@ -1,12 +1,14 @@
-# readme
+# README
 
 React + lottie で Likeボタンアニメーション
 
-## demo
+![react-lottie-like-button](https://user-images.githubusercontent.com/41136135/89243601-51178100-d63f-11ea-9a9a-63cbcf0670e1.gif)
+
+## DEMO
 
 [DEMO](https://react-lottie-like-button.firebaseapp.com)
 
-## icon
+## ICON
 
 お借りしたアニメーションファイル
 
