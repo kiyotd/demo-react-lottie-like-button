@@ -6,7 +6,7 @@ React + lottie で Likeボタンアニメーション
 
 ## DEMO
 
-[DEMO](https://react-lottie-like-button.firebaseapp.com)
+[DEMO](https://react-lottie-like-button.vercel.app/)
 
 ## ICON
 
