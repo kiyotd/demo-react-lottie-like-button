@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "node-forge": "^0.10.0",
     "serialize-javascript": "^4.0.0"
   }
 }
